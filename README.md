@@ -1,21 +1,14 @@
-# W3Schools Web Scraper
+# Vehicle Entity Serialization & Deserialization
 
-A professional and clean Python web scraper built with requests and BeautifulSoup to extract titles and main paragraphs from W3Schools.
+This Python project demonstrates how to serialize a nested Python dictionary into a JSON string and deserialize it back into a Python object. It also highlights how to correctly access multiple nested keys from a deserialized JSON object.
 
-##  Features
-- Fetches HTML data securely using proper headers.
-- Extracts main topic headers (`<h1>`) and text safely.
-- Implements error handling for internet connection failures.
+## Features
+- **Serialization:** Converts a Python dictionary (`vehival_entity`) to a JSON string using `json.dumps()`.
+- **Deserialization:** Converts the JSON string back into a Python dictionary using `json.loads()`.
+- **Data Extraction:** Safely extracts specific nested properties like `registration_nb` and `model`.
 
-##  Requirements
-Before running the script, ensure you have the required libraries installed:
+## How to Run
+Run the main script using Python:
 ```bash
-pip install requests beautifulsoup4
+python script2.py
 ```
-
-##  How to Run
-Run the specific script using the following command:
-```bash
-python script13.py
-```
-![img.png](img.png)
